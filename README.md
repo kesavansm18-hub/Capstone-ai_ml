@@ -17,8 +17,8 @@ ai-ml-capstone/
 │   ├── eda_cleaning.py
 │   ├── cleaned_data.csv
 │   ├── README.md
-│   └── data/                      # Raw dataset source
-│
+│   └── plt.savefig/               # Shared visualizations
+│   
 ├── part2_supervised_ml/           # Supervised Machine Learning
 │   ├── supervised_ml.py
 │   └── README.md
@@ -32,8 +32,8 @@ ai-ml-capstone/
 ├── part4_llm_featured/            # LLM-Powered Feature (Track C)
 │   ├── part4_llm_featured.py
 │   └── README.md
-│
-└── plt.savefig/                   # Shared visualizations
+
+
 
 # Environment Variables
 
