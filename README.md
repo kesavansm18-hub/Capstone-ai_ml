@@ -1,10 +1,17 @@
 # Capstone-ai_ml
-Capstone Project
+# Capstone Project: AI/ML Pipeline
 
+This repository contains the Capstone Project for the AI/ML track. The project is structured into four distinct phases, covering everything from Exploratory Data Analysis (EDA) to Advanced Ensemble Modeling and Large Language Model (LLM) integration.
+
+---
+
+## Repository Structure
+
+```text
 ai-ml-capstone/
 ├── .env.txt                       # API key for LLM (gitignored)
 ├── .gitignore                     # Git ignore rules
-├── README.MD                      # This global README
+├── README.md                      # This global README
 │
 ├── part1_eda/                     # EDA & Data Cleaning
 │   ├── eda_cleaning.py
@@ -57,9 +64,4 @@ OPENROUTER_API_KEY |	Your OpenRouter API key (required) |	your_api_key_here
  python-dotenv, 
  
  pydantic-settings
-
-
-
- 
-
 
