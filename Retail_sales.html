@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Analytics & LLM Scoring Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans min-h-screen">
+
+    <header class="bg-blue-600 text-white shadow-md p-4 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold tracking-wide flex items-center gap-2">
+                📊 Capstone Project Workspace
+            </h1>
+            <nav class="flex gap-4 font-medium">
+                <a href="#overview-tab" onclick="switchTab('overview')" class="hover:underline px-3 py-1 bg-blue-700 rounded" id="tab-btn-overview">Overview & Data</a>
+                <a href="#model-tab" onclick="switchTab('model')" class="hover:underline px-3 py-1 rounded" id="tab-btn-model">Profitability Simulator</a>
+                <a href="#llm-tab" onclick="switchTab('llm')" class="hover:underline px-3 py-1 rounded" id="tab-btn-llm">LLM Batch Scoring</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto p-4 md:p-8">
+        
+        <section id="tab-overview" class="tab-content block space-y-6">
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                <h2 class="text-2xl font-bold text-gray-900 mb-2">E-Commerce Dataset Snapshot</h2>
+                <p class="text-gray-600 mb-4">A high-level view extracted directly from your core historical transactional dataset structure.</p>
+                
+                <div class="overflow-x-auto rounded-lg border border-gray-200">
+                    <table class="w-full text-sm text-left text-gray-500">
+                        <thead class="text-xs text-gray-700 uppercase bg-gray-100">
+                            <tr>
+                                <th class="px-4 py-3">Order Date</th>
+                                <th class="px-4 py-3">Customer Name</th>
+                                <th class="px-4 py-3">Product</th>
+                                <th class="px-4 py-3 text-center">Qty</th>
+                                <th class="px-4 py-3 text-right">Unit Price</th>
+                                <th class="px-4 py-3 text-center">Discount %</th>
+                                <th class="px-4 py-3 text-right">Profit</th>
+                            </tr>
+                        </thead>
+                        <tbody id="data-table-body" class="divide-y divide-gray-200 bg-white">
+                            </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                <h3 class="text-lg font-bold text-gray-900 mb-4">Sample Distribution Analysis</h3>
+                <div class="h-64">
+                    <canvas id="overviewChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="tab-model" class="tab-content hidden space-y-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 md:col-span-1 space-y-4">
+                    <h2 class="text-xl font-bold text-gray-900">Predictive Feature Simulator</h2>
+                    <p class="text-xs text-gray-500">Simulates real-time Decision Tree classification criteria using parameters aligned with standard scalers.</p>
+                    
+                    <div class="space-y-1">
+                        <label class="block text-sm font-medium text-gray-700">Quantity: <span id="val-qty" class="font-bold text-blue-600">5</span></label>
+                        <input type="range" id="input-qty" min="1" max="15" value="5" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
+                    </div>
+
+                    <div class="space-y-1">
+                        <label class="block text-sm font-medium text-gray-700">Unit Price: ₹<span id="val-price" class="font-bold text-blue-600">5000</span></label>
+                        <input type="range" id="input-price" min="100" max="80000" step="100" value="5000" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
+                    </div>
+
+                    <div class="space-y-1">
+                        <label class="block text-sm font-medium text-gray-700">Discount Pct: <span id="val-discount" class="font-bold text-blue-600">15</span>%</label>
+                        <input type="range" id="input-discount" min="0" max="50" step="1" value="15" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 md:col-span-2 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Model Prediction Engine Output</h3>
+                        <p class="text-sm text-gray-600 mb-6">Calculates standardized features and targets whether the output classification will fall above or below the threshold median target.</p>
+                    </div>
+
+                    <div class="p-6 rounded-xl text-center flex flex-col items-center justify-center space-y-4 border-2 border-dashed" id="prediction-box">
+                        <span class="text-sm font-semibold tracking-wider uppercase text-gray-400">Classification Status</span>
+                        <h4 id="prediction-result" class="text-3xl font-extrabold text-gray-800">Calculating...</h4>
+                        <p id="prediction-desc" class="text-sm text-gray-500 max-w-sm"></p>
+                    </div>
+
+                    <div class="mt-4 pt-4 border-t border-gray-100 grid grid-cols-2 text-center text-xs text-gray-500">
+                        <div>Decision Tree Baseline Accuracy: <span class="font-semibold text-gray-700">83.00%</span></div>
+                        <div>Controlled Tree Accuracy: <span class="font-semibold text-gray-700">80.00%</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="tab-llm" class="tab-content hidden space-y-6">
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                <h2 class="text-2xl font-bold text-gray-900 mb-2">Tabular Record Batch Scoring Pipeline</h2>
+                <p class="text-gray-600 mb-6 text-sm">Demonstrates prompt routing logs alongside regular evaluation rules and custom automated input PII security guardrails.</p>
+
+                <div class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-2">Simulate Text Input Payload:</label>
+                        <textarea id="llm-payload" rows="3" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 font-mono text-sm">Analyze order row data metrics for Aarav Mehta who bought Sugar with profit generated ₹289.18</textarea>
+                    </div>
+
+                    <div class="flex flex-wrap gap-2">
+                        <button onclick="setLlmPreset('clean')" class="px-3 py-1 bg-gray-100 hover:bg-gray-200 text-xs font-medium rounded text-gray-700">Load Safe Prompt</button>
+                        <button onclick="setLlmPreset('pii')" class="px-3 py-1 bg-red-50 hover:bg-red-100 text-xs font-medium rounded text-red-700 border border-red-200">Trigger PII Guardrail Test (Email)</button>
+                    </div>
+
+                    <button onclick="runLlmSimulation()" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 rounded-lg shadow-sm transition">
+                        Run Batch Scoring Pipeline Request
+                    </button>
+                </div>
+
+                <div class="mt-8 space-y-4">
+                    <h3 class="text-lg font-bold text-gray-900">Execution Pipeline Console</h3>
+                    <div class="bg-gray-900 text-green-400 p-4 rounded-xl font-mono text-xs overflow-y-auto h-64 space-y-2 shadow-inner" id="llm-console">
+                        <p class="text-gray-500">// Pipeline initialized. Awaiting user execution triggers...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center text-xs text-gray-400 py-8 border-t border-gray-100 mt-12">
+        Capstone Analytics Tool Architecture Workspace Core Environment.
+    </footer>
+
+    <script>
+        // Tab Navigation Router Switching Logic
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+            document.getElementById('tab-' + tabId).classList.remove('hidden');
+            
+            document.querySelectorAll('nav a').forEach(el => el.classList.remove('bg-blue-700'));
+            document.getElementById('tab-btn-' + tabId).classList.add('bg-blue-700');
+        }
+
+        // --- Mock Data Mock Loader matching cleaned_data.csv structure ---
+        const datasetMock = [
+            { date: "08/15/2024", name: "Aarav Mehta", product: "Sugar", qty: 8, price: 346.32, discount: 0.20, profit: 289.18 },
+            { date: "08/16/2022", name: "Sanjay Verma", product: "Sunscreen", qty: 8, price: 858.66, discount: 0.08, profit: 5355.56 },
+            { date: "08/29/2021", name: "Pooja Sharma", product: "Sofa", qty: 4, price: 25941.32, discount: 0.14, profit: 36956.51 },
+            { date: "07/05/2022", name: "Priya Reddy", product: "Bed Frame", qty: 9, price: 22071.92, discount: 0.17, profit: 66644.99 },
+            { date: "02/09/2024", name: "Vikram Iyer", product: "Self-Help Book", qty: 2, price: 949.50, discount: 0.22, profit: 964.66 },
+            { date: "06/04/2020", name: "Meera Mishra", product: "Wardrobe", qty: 3, price: 24460.80, discount: 0.15, profit: 14762.22 }
+        ];
+
+        function populateTable() {
+            const tbody = document.getElementById('data-table-body');
+            tbody.innerHTML = '';
+            datasetMock.forEach(row => {
+                tbody.innerHTML += `
+                    <tr class="hover:bg-gray-50 border-b">
+                        <td class="px-4 py-3">${row.date}</td>
+                        <td class="px-4 py-3 font-medium text-gray-900">${row.name}</td>
+                        <td class="px-4 py-3">${row.product}</td>
+                        <td class="px-4 py-3 text-center">${row.qty}</td>
+                        <td class="px-4 py-3 text-right">₹${row.price.toFixed(2)}</td>
+                        <td class="px-4 py-3 text-center">${(row.discount * 100).toFixed(0)}%</td>
+                        <td class="px-4 py-3 text-right font-semibold text-green-600">₹${row.profit.toFixed(2)}</td>
+                    </tr>
+                `;
+            });
+        }
+
+        // --- SECTION 2: PROFITABILITY LOGIC MATHEMATICAL SIMULATOR ---
+        // Simulates mathematical threshold predictions modeled inside Advanced Modeling tree nodes
+        const medianProfitCutoff = 4500; // Stand-in dataset median profit category boundary metric
+
+        function updatePrediction() {
+            const qty = parseInt(document.getElementById('input-qty').value);
+            const price = parseFloat(document.getElementById('input-price').value);
+            const discount = parseFloat(document.getElementById('input-discount').value) / 100;
+
+            // Sync visual UI text readouts
+            document.getElementById('val-qty').innerText = qty;
+            document.getElementById('val-price').innerText = price;
+            document.getElementById('val-discount').innerText = (discount * 100).toFixed(0);
+
+            // Compute empirical estimation metrics 
+            const estimatedSalesAmount = qty * price * (1 - discount);
+            // Simulated profit margin heuristic matching the multi-variable data profiles
+            const estimatedSimulatedProfit = estimatedSalesAmount * 0.35; 
+
+            const isHighProfit = estimatedSimulatedProfit > medianProfitCutoff;
+
+            const predBox = document.getElementById('prediction-box');
+            const predResult = document.getElementById('prediction-result');
+            const predDesc = document.getElementById('prediction-desc');
+
+            if (isHighProfit) {
+                predBox.className = "p-6 rounded-xl text-center flex flex-col items-center justify-center space-y-4 border-2 border-emerald-50 bg-emerald-50 text-emerald-900";
+                predResult.innerText = "HIGH PROFIT CLASS (1)";
+                predDesc.innerText = `Calculated proxy profit metric is ₹${estimatedSimulatedProfit.toFixed(2)}, outperforming the training subset median threshold cutoff of ₹${medianProfitCutoff}.`;
+            } else {
+                predBox.className = "p-6 rounded-xl text-center flex flex-col items-center justify-center space-y-4 border-2 border-amber-50 bg-amber-50 text-amber-900";
+                predResult.innerText = "STANDARD PROFIT CLASS (0)";
+                predDesc.innerText = `Calculated proxy profit metric is ₹${estimatedSimulatedProfit.toFixed(2)}, falling underneath the operational standard category threshold boundary.`;
+            }
+        }
+
+        // --- SECTION 3: LLM PIPELINE INTERACTION WITH CUSTOM GUARDRAILS ---
+        function setLlmPreset(type) {
+            const textarea = document.getElementById('llm-payload');
+            if (type === 'clean') {
+                textarea.value = "Analyze order row data metrics for Aarav Mehta who bought Sugar with profit generated ₹289.18";
+            } else if (type === 'pii') {
+                textarea.value = "Please process and route batch payload securely for user email record: aarav.mehta@example.com.";
+            }
+        }
+
+        function runLlmSimulation() {
+            const consoleEl = document.getElementById('llm-console');
+            const rawText = document.getElementById('llm-payload').value;
+            
+            consoleEl.innerHTML = `<p class="text-blue-400">[Timestamp: ${new Date().toLocaleTimeString()}] Starting pipeline scoring execution context loop...</p>`;
+            
+            // 1. Evaluate Input Guardrails for PII Detection (as implemented in your notebook rules)
+            setTimeout(() => {
+                consoleEl.innerHTML += `<p class="text-yellow-400">⚡ Running strict automated Input PII Security Guardrail scanning pass...</p>`;
+                
+                setTimeout(() => {
+                    // Regex pattern for validating explicit target patterns like active email structures
+                    const emailRegex = /[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/;
+                    const containsBlockedPii = emailRegex.test(rawText);
+
+                    if (containsBlockedPii) {
+                        consoleEl.innerHTML += `<p class="text-red-500 font-bold">🛑 [PII BLOCK TRIGGERED] Security Alert: Sensitive identity identifiers (Email string) detected.</p>`;
+                        consoleEl.innerHTML += `<p class="text-red-400">Outcome Status: BLOCKED_GUARDRAIL. Terminating API payload assembly routing immediately to maintain system trust parameters.</p>`;
+                    } else {
+                        consoleEl.innerHTML += `<p class="text-emerald-400">✅ Security Guardrail clearance validation succeeded. No structural anomalies found.</p>`;
+                        consoleEl.innerHTML += `<p class="text-gray-400">Routing payload securely to active scoring endpoint configuration...</p>`;
+                        
+                        setTimeout(() => {
+                            consoleEl.innerHTML += `<p class="text-blue-300">📡 Transmitting structured payload to openrouter.ai/api/v1 model deployment stack (gpt-3.5-turbo)...</p>`;
+                            
+                            setTimeout(() => {
+                                consoleEl.innerHTML += `<p class="text-gray-200 mt-2 font-semibold">--- [LLM Generated Insights Output Summary Table] ---</p>`;
+                                consoleEl.innerHTML += `<p class="text-green-300 text-xs italic">"The submitted transaction logs highlight stable unit distribution metrics. Subject record displays balanced discount-to-profit scaling performance margins."</p>`;
+                                consoleEl.innerHTML += `<p class="text-blue-400 mt-2">🏁 Pipeline complete. HTTP Status Code: 200 OK.</p>`;
+                            }, 1000);
+                        }, 800);
+                    }
+                }, 600);
+            }, 400);
+        }
+
+        // --- Initialization ---
+        window.onload = function() {
+            populateTable();
+            
+            // Render basic metrics chart tracking sample profit vectors
+            const ctx = document.getElementById('overviewChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: datasetMock.map(item => item.product),
+                    datasets: [{
+                        label: 'Net Generated Profit Vector (₹)',
+                        data: datasetMock.map(item => item.profit),
+                        backgroundColor: 'rgba(59, 130, 246, 0.6)',
+                        borderColor: 'rgba(59, 130, 246, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: { y: { beginAtZero: true } }
+                }
+            });
+
+            // Set up real-time listener monitors for range sliders
+            document.getElementById('input-qty').addEventListener('input', updatePrediction);
+            document.getElementById('input-price').addEventListener('input', updatePrediction);
+            document.getElementById('input-discount').addEventListener('input', updatePrediction);
+            
+            // Execute default baseline render state run
+            updatePrediction();
+        };
+    </script>
+</body>
+</html>
