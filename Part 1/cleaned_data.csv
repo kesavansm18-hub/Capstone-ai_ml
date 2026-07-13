@@ -1,0 +1,501 @@
+order_date,customer_name,gender,product_name,quantity,unit_price,discount_pct,sales_amount,profit
+08/15/2024 0:00,Aarav Mehta,Male,Sugar,8,346.32,0.2,4043.14,289.18
+08/16/2022 0:00,Sanjay Verma,Male,Sunscreen,8,858.66,0.08,9147.31,5355.56
+08/29/2021 0:00,Pooja Sharma,Female,Sofa,4,25941.32,0.14,110156.97,36956.51
+07/05/2022 0:00,Priya Reddy,Female,Bed Frame,9,22071.92,0.17,262066.11,66644.99
+05/07/2020 0:00,Ritu Sharma,Male,Cooking Oil,1,320.06,0.31,323.95,31.38
+02/09/2024 0:00,Vikram Iyer,Male,Self-Help Book,2,949.5,0.22,2202.33,964.66
+09/28/2021 0:00,Arjun Shah,Female,Self-Help Book,3,329.03,0.02,994.87,375.07
+06/10/2023 0:00,Aditya Sharma,Female,Saree,1,1356.6,0.01,2140.41,717.27
+07/24/2020 0:00,Aditya Patel,Female,Self-Help Book,8,495.77,0.37,2828.82,1338.88
+02/09/2020 0:00,Arjun Das,Female,Kurta,9,2128.77,0.1,14568.16,4173.45
+06/04/2020 0:00,Meera Mishra,Female,Wardrobe,3,24460.8,0.15,86997.39,14762.22
+01/28/2022 0:00,Shreya Bose,Female,Dal (1kg),2,274.81,0.15,379.5,24.26
+09/14/2022 0:00,Vikram Pillai,Male,Lipstick,7,111.14,0.37,567.33,305.65
+01/21/2024 0:00,Karan Bose,Female,Cook Book,10,1492.28,0.38,9315.19,4336.31
+01/04/2023 0:00,Deepa Joshi,Male,T-Shirt,9,590.14,0.2,4824.04,2277.4
+03/10/2024 0:00,Deepa Mehta,Female,Chair,10,12138.87,0.15,144295.18,50995.28
+03/14/2022 0:00,Rahul Gupta,Male,Dress,10,1706.05,0.04,17995.41,6453.4
+06/11/2023 0:00,Shreya Singh,Male,Tablet,8,73558.44,0.4,315130.44,53808.65
+12/17/2024 0:00,Nikhil Mishra,Male,Jacket,5,3006.52,0.12,10622.32,4837.79
+01/19/2020 0:00,Sanjay Bose,Male,Sofa,3,34890.63,0.29,64727.53,18067.63
+05/24/2022 0:00,Kavya Kumar,Female,Headphones,7,48577.53,0.07,483408.08,36816.91
+03/17/2021 0:00,Sanjay Mishra,Female,Dumbbells,8,7643.4,0.09,61783.2,10099.62
+03/28/2023 0:00,Rahul Joshi,Female,Comic Book,6,1467.54,0.29,7477.88,3606.99
+07/17/2023 0:00,Arjun Chatterjee,Male,Self-Help Book,5,478.05,0.02,621.35,290.9
+12/10/2024 0:00,Pooja Verma,Female,Self-Help Book,7,612.7,0.22,3224.82,991.03
+08/17/2024 0:00,Nikhil Bhat,Female,Football,9,3000.32,0.21,29267.25,6330.95
+10/25/2021 0:00,Sanjay Reddy,Male,Cooking Oil,2,233.12,0.28,322.86,21.37
+07/07/2024 0:00,Nikhil Bose,Female,T-Shirt,2,735.25,0.03,2477.72,795.65
+07/28/2021 0:00,Rahul Gupta,Male,Laptop,9,63147.82,0.14,671607.78,86070.79
+07/01/2020 0:00,Rahul Kapoor,Male,Comic Book,8,635.66,0.34,3704.84,1269.07
+03/29/2022 0:00,Arjun Pillai,Male,Cricket Bat,7,6478.95,0.22,43346.6,8443.99
+03/10/2023 0:00,Kavya Patel,Male,Hair Oil,3,1290.21,0.12,3690.09,1777.76
+02/27/2021 0:00,Kavya Pillai,Female,Bookshelf,1,33537.06,0.25,24565.06,5814.79
+01/23/2024 0:00,Deepa Pillai,Male,Headphones,3,64874.09,0.02,177754.39,20320.94
+11/06/2021 0:00,Vikram Pillai,Male,Comic Book,4,1350.95,0.21,3635.51,1854.28
+10/22/2024 0:00,Rahul Sharma,Male,Camera,3,68799.42,0.07,232621.97,36091.77
+01/17/2023 0:00,Ritu Nair,Male,Sofa,3,31242.32,0.01,92924.36,27403.47
+06/14/2022 0:00,Amit Kumar,Male,Comic Book,5,1431.29,0.04,1929.4,819.7
+06/30/2024 0:00,Ananya Patel,Male,Jeans,3,1621.83,0.4,4851.55,1799.06
+01/10/2020 0:00,Karan Iyer,Female,Cook Book,10,324.41,0.32,1810.18,903.99
+05/31/2023 0:00,Sanjay Shah,Female,Wardrobe,6,20242.36,0.04,191398.26,59116.34
+05/30/2022 0:00,Vikram Kumar,Male,Tennis Racket,9,14422.23,0.21,145427.41,40739.98
+07/01/2020 0:00,Nikhil Kapoor,Female,Desk,2,33115.91,0.28,53911.88,13232.77
+05/31/2023 0:00,Aditya Reddy,Female,Cricket Bat,8,3917.74,0.27,36596.17,11271.87
+12/09/2020 0:00,Meera Gupta,Female,Bookshelf,4,11267.5,0.2,24230.41,7321.53
+12/23/2023 0:00,Kavya Verma,Male,Face Cream,5,2497.1,0.37,6596.23,2649.2
+09/18/2022 0:00,Ananya Nair,Female,Camera,5,11463.02,0.34,44107,3355.55
+11/22/2024 0:00,Meera Kumar,Female,Comic Book,7,785.67,0.12,4582.79,2037.5
+11/16/2020 0:00,Nikhil Reddy,Female,Jeans,2,1557.26,0.13,1859.03,840.29
+04/05/2022 0:00,Aditya Mehta,Male,Cooking Oil,2,393.55,0.02,1057.65,87.14
+04/20/2021 0:00,Meera Chatterjee,Female,Football,5,8244.31,0.12,49710.43,13744.26
+05/20/2022 0:00,Sanjay Kapoor,Male,Comic Book,5,1063.62,0.16,6991.06,2963.48
+08/05/2023 0:00,Vikram Shah,Male,Sugar,7,315.62,0.28,2026.01,104.43
+05/17/2023 0:00,Aditya Pillai,Female,Lipstick,1,697.15,0.18,867.37,335.66
+08/03/2020 0:00,Ritu Verma,Male,Tablet,2,52363.15,0.25,89225.91,14474.33
+06/04/2020 0:00,Shreya Kumar,Male,Football,3,2684.91,0.15,9541.81,2543.29
+08/22/2023 0:00,Rohan Nair,Female,Fiction Novel,4,889.6,0.36,3597.1,1076.91
+06/02/2020 0:00,Priya Joshi,Female,Jeans,2,1548.43,0.38,2480.54,866.5
+06/22/2024 0:00,Deepa Nair,Female,Comic Book,1,787.78,0.15,1146.29,520.99
+02/12/2020 0:00,Sanjay Joshi,Female,Cycle,3,6047.51,0.08,13365.94,2741.49
+04/08/2020 0:00,Ritu Gupta,Male,Tennis Racket,1,5935.12,0.08,6293.66,1165.63
+07/28/2021 0:00,Shreya Nair,Female,Textbook,5,1490.57,0.13,1761.29,922.64
+04/25/2022 0:00,Ananya Verma,Male,T-Shirt,2,1244.43,0.23,2660.47,1061.94
+09/07/2022 0:00,Karan Kapoor,Male,Chair,2,22082.21,0.2,51389.35,9844.24
+03/17/2021 0:00,Aarav Pillai,Male,Laptop,4,11157.11,0.38,32774.69,3797.24
+02/02/2021 0:00,Deepa Pillai,Female,Comic Book,7,914.96,0.36,3687.74,1423.3
+08/24/2021 0:00,Aditya Gupta,Male,Jacket,5,1008.19,0.27,4205.92,1377.84
+11/04/2023 0:00,Arjun Bhat,Male,Saree,7,2102.17,0.13,11565.64,3358.13
+02/08/2020 0:00,Karan Shah,Female,Chair,9,22687.65,0.33,117568.37,33050.92
+01/21/2021 0:00,Nisha Shah,Female,Smartwatch,10,57148.46,0.06,443615.41,48368.13
+05/26/2023 0:00,Deepa Chatterjee,Male,Bookshelf,5,5493.74,0.2,6967.21,1809.32
+10/05/2023 0:00,Ananya Joshi,Female,Sofa,2,7616.64,0.34,11304.13,3661.21
+06/27/2022 0:00,Nikhil Reddy,Female,Desk,8,3549.62,0.22,30702.91,10062.41
+08/29/2023 0:00,Rahul Verma,Male,Headphones,3,15632.25,0.34,44298.79,4132.26
+09/04/2022 0:00,Kavya Patel,Female,Headphones,4,41499.34,0,175476.12,19809.16
+07/31/2021 0:00,Arjun Mishra,Male,Kurta,5,3288.5,0.01,4673.02,1513.25
+11/17/2023 0:00,Shreya Nair,Female,Football,4,3010.43,0.27,8396.79,1584.03
+01/03/2020 0:00,Nisha Mehta,Female,Sofa,8,22523.15,0.34,95036.79,29818.97
+01/22/2020 0:00,Ritu Kapoor,Female,Textbook,4,363.32,0.07,1026.5,410.28
+06/02/2023 0:00,Aditya Sharma,Female,Wardrobe,3,31229.73,0.32,100210.97,34252.99
+08/21/2022 0:00,Ananya Shah,Female,Chair,3,25395.64,0.3,82667.82,28762.52
+04/22/2021 0:00,Aditya Das,Male,Dal (1kg),3,457.68,0.26,1159.07,84.35
+06/07/2023 0:00,Deepa Das,Female,Self-Help Book,1,715.84,0.24,937.54,470.99
+10/23/2024 0:00,Sanjay Verma,Female,Football,4,9803,0.33,32120.84,6215.4
+06/21/2020 0:00,Vikram Nair,Male,Headphones,5,28892.57,0.07,205453.46,25286.68
+02/14/2022 0:00,Meera Gupta,Male,Wardrobe,9,14001.85,0.05,118164.26,40660.47
+09/22/2020 0:00,Priya Bhat,Female,Wardrobe,8,30292.85,0.29,173004.24,45465.04
+10/03/2024 0:00,Meera Singh,Male,Tennis Racket,2,2854.89,0.06,6360.16,1203.75
+07/04/2023 0:00,Rohan Pillai,Male,T-Shirt,9,1340.2,0.38,12757.93,3852.39
+10/11/2020 0:00,Sanjay Iyer,Female,Bookshelf,7,34455.92,0.28,149044.86,39164.43
+08/25/2023 0:00,Rahul Verma,Female,Self-Help Book,10,755.47,0.04,10570.33,4011.83
+01/28/2022 0:00,Nisha Shah,Male,Tennis Racket,10,6054.48,0.06,48184.42,9832.73
+09/01/2021 0:00,Shreya Reddy,Male,Desk,10,8753.12,0.28,73335.01,17930.25
+11/01/2022 0:00,Ananya Verma,Male,Textbook,4,1320.32,0.01,4535.42,950.65
+11/30/2020 0:00,Karan Das,Female,Cook Book,8,707.31,0.15,3730.16,1635.73
+05/22/2024 0:00,Rohan Gupta,Male,Dal (1kg),5,309.97,0.04,2672.61,214.05
+09/18/2021 0:00,Priya Singh,Female,Cricket Bat,8,12223.45,0.4,62483.59,10563.05
+11/20/2022 0:00,Nikhil Patel,Male,Tablet,4,73017.83,0.22,192150.99,23288.67
+03/07/2020 0:00,Deepa Rao,Female,Desk,8,25624.31,0.12,188109.47,45753.79
+01/25/2021 0:00,Vikram Gupta,Male,Hair Oil,4,521.44,0.14,1538.13,492.45
+01/15/2024 0:00,Vikram Iyer,Male,Saree,6,3871.22,0.33,16031.48,5072.13
+05/24/2023 0:00,Rahul Verma,Male,Self-Help Book,8,579.77,0.36,3954.73,2230.94
+04/04/2021 0:00,Nikhil Mishra,Male,Cooking Oil,1,116.68,0.06,118.23,9.75
+08/10/2022 12:00,Nikhil Reddy,Male,Rice (5kg),4,161.52,0.17,815.36,66.15
+05/06/2021 0:00,Meera Nair,Female,Textbook,7,1042.98,0.3,7120.16,2589.16
+03/02/2021 0:00,Nisha Iyer,Female,Jeans,3,3314.25,0.1,9673.58,3783
+06/15/2024 0:00,Nikhil Sharma,Male,Tablet,3,48747.69,0.29,172382.02,22319.7
+12/14/2022 0:00,Sunita Joshi,Male,Cook Book,9,1471.74,0.05,10167.9,5411.76
+04/16/2023 0:00,Rahul Das,Male,Laptop,8,27632.84,0.08,295286.41,33436.12
+05/08/2021 0:00,Pooja Mishra,Female,Cycle,7,11542.97,0.16,97177.38,24424.83
+08/02/2020 0:00,Sunita Joshi,Female,Cook Book,8,1325.02,0.09,8717.89,3265.49
+07/12/2024 0:00,Rahul Kumar,Male,Sugar,-1,84.21,0.13,125.78,8.9
+06/01/2023 0:00,Nikhil Nair,Male,Football,6,5611.57,0.2,37888.42,6107.6
+12/16/2023 0:00,Rahul Chatterjee,Female,Tea,9,312.53,0.35,1437,155.73
+12/21/2024 0:00,Amit Verma,Female,Dumbbells,2,13057.02,0.35,14206.67,3578.76
+05/01/2023 0:00,Deepa Verma,Male,Saree,7,3482.32,0.35,26908.32,8716.81
+02/17/2021 0:00,Meera Pillai,Male,Cycle,3,11359.59,0.01,30752.81,7374.96
+12/10/2020 0:00,Amit Patel,Male,Tennis Racket,5,5242.77,0.31,13993.35,2992.91
+02/03/2020 0:00,Amit Das,Female,Chair,10,9468.07,0.32,57174.24,15202.22
+12/28/2020 0:00,Sunita Gupta,Female,Flour,8,491.76,0.08,2780.1,223.65
+04/16/2022 0:00,Rohan Shah,Male,Perfume,7,2235.02,0.37,11756.21,7295.66
+11/20/2024 0:00,Shreya Pillai,Female,Comic Book,9,1324.57,0.38,7683.45,2086.59
+07/07/2023 0:00,Sanjay Singh,Male,Cricket Bat,1,9949.47,0.06,13501.36,3908.34
+08/23/2022 0:00,Meera Chatterjee,Male,Headphones,6,45624.04,0.24,274607.48,23542.83
+05/19/2023 0:00,Arjun Chatterjee,Female,Bookshelf,10,7630.7,0.21,99978.26,21558.18
+06/27/2020 0:00,Sanjay Mehta,Female,Cricket Bat,1,4889.3,0.16,5849.95,1406.77
+08/21/2020 0:00,Amit Das,Male,Dress,5,2614.79,0.12,12884.93,2796.07
+04/27/2020 0:00,Sunita Reddy,Female,Cook Book,7,257.18,0.29,1452.88,604.81
+04/17/2023 0:00,Kavya Mehta,Female,Textbook,8,337.73,0.38,2495.05,1142.99
+03/05/2021 0:00,Nikhil Patel,Female,Chair,6,29194.28,0.36,144911.63,54404.2
+05/16/2024 0:00,Ritu Patel,Male,Camera,4,20489.54,0.01,161033.98,22669.85
+08/11/2021 0:00,Vikram Kumar,Male,Yoga Mat,2,11904.59,0.18,25494.32,6649.59
+10/31/2020 0:00,Rahul Bhat,Female,Camera,5,49817.06,0.28,167889.68,16722.18
+10/26/2024 0:00,Kavya Pillai,Female,Sofa,4,10887.68,0.14,46926.73,14349.22
+06/01/2022 0:00,Meera Kumar,Male,Saree,5,451.03,0.19,2632.07,1165.89
+12/09/2021 0:00,Karan Bose,Female,Self-Help Book,3,586.88,0.33,916.67,373.51
+04/09/2021 0:00,Nikhil Joshi,Female,Football,10,6806.6,0.36,39614.95,7458.02
+12/01/2023 0:00,Aditya Iyer,Male,Jeans,3,3608.42,0.29,6927.13,1997.74
+05/22/2022 0:00,Ananya Rao,Male,Headphones,2,72469.02,0.38,127833.79,12280.09
+01/06/2024 0:00,Kavya Singh,Female,Laptop,3,42514.99,0.06,111205.03,13533.76
+08/26/2020 0:00,Priya Das,Female,Face Cream,5,1644.33,0.31,1186.66,470.96
+04/21/2022 0:00,Ananya Nair,Female,Cook Book,5,540.77,0.28,2814.83,1625.95
+07/06/2020 0:00,Priya Sharma,Female,Jacket,2,539.35,0.23,1124.22,289.25
+12/29/2023 0:00,Sunita Das,Female,Smartphone,9,30674.09,0.39,159421.61,15597.31
+07/02/2022 0:00,Sunita Mishra,Female,Saree,8,3278.48,0.2,39736.74,15719.62
+03/27/2023 0:00,Nisha Kapoor,Female,Tablet,2,69342.57,0.08,154630.39,18946.95
+01/28/2020 0:00,Ananya Nair,Male,Dumbbells,4,12945.28,0.13,31129.56,7042.29
+12/19/2022 0:00,Sunita Verma,Male,Bookshelf,5,29767.34,0.16,92126.76,24089.4
+10/01/2023 0:00,Amit Singh,Male,Cricket Bat,3,14810.59,0.08,44578.62,10260.62
+09/22/2024 0:00,Karan Reddy,Male,Sunscreen,4,2333.1,0.22,11296.75,4828.37
+09/14/2022 0:00,Aarav Joshi,Male,Football,2,13833.36,0.06,30150.8,8534.61
+11/19/2021 0:00,Sunita Shah,Female,Chair,5,9804.75,0.09,36117.01,8077.49
+12/31/2022 0:00,Nisha Kapoor,Male,Textbook,3,1379.58,0.06,3040.53,976.28
+10/16/2022 0:00,Kavya Pillai,Male,Chair,8,33543.43,0.22,218733.7,59861.82
+04/19/2024 0:00,Pooja Iyer,Female,Perfume,6,1423.12,0.11,10606.52,4315.91
+04/04/2022 0:00,Aditya Mehta,Female,Camera,8,64439.74,0.23,542100.67,80671.01
+02/04/2021 0:00,Shreya Gupta,Male,Smartwatch,10,72812.39,0.29,520084.41,94437.03
+06/29/2021 0:00,Arjun Joshi,Male,Chair,6,3208.32,0.25,24685.74,5146.1
+04/14/2023 0:00,Ritu Reddy,Male,Sunscreen,8,415.72,0.01,4769.26,1796.21
+09/21/2020 0:00,Pooja Shah,Female,Tea,1,389.24,0.23,313.86,22.71
+07/01/2024 0:00,Sanjay Joshi,Female,Self-Help Book,5,1486.09,0.11,1967.1,719.18
+02/08/2024 0:00,Sunita Iyer,Male,Smartwatch,4,15346.11,0.06,67060.7,9998.89
+07/04/2024 0:00,Sanjay Rao,Male,Biography,8,1499.77,0.37,11632.7,4863.95
+04/11/2021 0:00,Pooja Shah,Male,Fiction Novel,9,816.35,0.12,7711.33,3255
+08/10/2022 12:00,Meera Iyer,Male,Dumbbells,7,12597.24,0.11,77124.12,20197.94
+11/12/2023 0:00,Pooja Chatterjee,Male,Jeans,3,1850.1,0.03,4811.57,1286.23
+09/27/2023 0:00,Vikram Nair,Female,Dress,10,2309.23,0.02,28827.02,8270.8
+08/04/2020 0:00,Kavya Das,Male,Wardrobe,5,12250.19,0.32,45443.23,11573.16
+10/20/2020 0:00,Ritu Nair,Female,Textbook,3,835.42,0.33,1423.3,458.44
+10/22/2021 0:00,Sunita Sharma,Female,Headphones,9,62284.37,0.36,295233.56,40519.72
+07/02/2024 0:00,Vikram Chatterjee,Male,Fiction Novel,2,493.07,0.4,1034.25,466.16
+12/14/2021 0:00,Priya Verma,Female,Dumbbells,2,4486.05,0.2,5037.77,1061.82
+02/23/2021 0:00,Pooja Mishra,Female,Dress,2,2323.11,0.1,3708.79,1138.78
+11/19/2020 0:00,Meera Nair,Female,Fiction Novel,10,331.1,0.39,1477.96,435.14
+09/23/2024 0:00,Rohan Pillai,Male,Flour,5,195.29,0.16,1055.1,81.38
+11/20/2021 0:00,Rohan Kumar,Male,Kurta,10,1224.47,0.4,5546.22,2019.44
+12/31/2023 0:00,Aarav Mehta,Female,Lipstick,7,1828.2,0.21,9118.63,3919.89
+08/29/2020 0:00,Arjun Rao,Male,Smartwatch,0,9189.44,0.19,8306.29,916.95
+05/01/2020 0:00,Nisha Joshi,Female,Laptop,8,74156.48,0.02,789939.57,58250.48
+07/21/2024 0:00,Priya Verma,Female,Sugar,6,462.8,0.2,3702.45,265.28
+06/03/2022 0:00,Nikhil Singh,Female,Self-Help Book,4,664.43,0.18,2827.28,858.56
+10/01/2024 0:00,Nikhil Patel,Male,Bed Frame,5,16493.24,0.1,95102.09,29222.3
+11/20/2021 0:00,Kavya Rao,Male,Jeans,9,577.16,0.35,2706.28,896.42
+08/30/2023 0:00,Vikram Joshi,Male,Bed Frame,6,21712.77,0.14,157859.91,48496.37
+08/03/2024 0:00,Deepa Chatterjee,Female,Hair Oil,5,2341.12,0.07,14424.73,7388.44
+04/01/2022 0:00,Shreya Kapoor,Male,Lipstick,3,992.1,0.25,3344.42,1765.61
+07/31/2022 0:00,Vikram Bhat,Male,Saree,2,3551.33,0.03,9440.78,3804.23
+02/05/2024 0:00,Aditya Shah,Female,Tennis Racket,2,9159.84,0.21,17159.15,4525.93
+12/31/2021 0:00,Shreya Mishra,Male,Yoga Mat,3,726.67,0.34,1042.72,281.95
+03/06/2023 0:00,Rohan Mishra,Male,Headphones,3,65257.11,0.2,196362.97,27495.56
+08/14/2024 0:00,Nisha Bhat,Female,Self-Help Book,6,797.16,0.34,4735.21,1174.59
+12/02/2023 0:00,Aditya Mehta,Female,Cricket Bat,5,11000.34,0.04,9272.71,1339.4
+05/03/2020 0:00,Sanjay Joshi,Male,Textbook,10,1346.41,0.24,12502.33,5924.88
+06/15/2024 0:00,Nikhil Patel,Female,Jeans,10,1828.09,0.4,18651.13,4543.72
+06/18/2021 0:00,Vikram Gupta,Male,Wardrobe,5,27399.66,0.38,132575.91,31097.38
+04/03/2023 0:00,Nisha Kapoor,Male,Textbook,10,1221.02,0.17,15191.82,5083.3
+05/31/2023 0:00,Aditya Bose,Female,Headphones,5,26851.1,0.03,218111.79,24902.1
+11/26/2023 0:00,Pooja Kapoor,Female,Football,3,11118.32,0.3,22974.82,4866.53
+11/09/2020 0:00,Rahul Kumar,Male,Hair Oil,10,1973.78,0.07,14584.96,5325.39
+06/30/2023 0:00,Aarav Das,Male,Bed Frame,9,12800.64,0.3,120310.49,28867.05
+08/05/2020 0:00,Meera Mehta,Female,Laptop,5,16919.29,0.06,117489.88,14930.93
+06/23/2023 0:00,Ananya Joshi,Female,Shampoo,8,1976.85,0.3,17609.1,8544.51
+08/22/2020 0:00,Sanjay Iyer,Male,Lipstick,1,357.7,0.24,286.61,137.45
+04/29/2022 0:00,Vikram Sharma,Male,Sugar,10,321.34,0.16,4232.71,408.89
+09/25/2024 0:00,Nikhil Mishra,Female,Dress,1,2472.06,0.23,2559.11,756.36
+05/29/2023 0:00,Meera Joshi,Female,Bed Frame,4,25915.33,0.11,132743.41,29427.55
+06/22/2020 0:00,Pooja Rao,Female,T-Shirt,7,2701.8,0.09,22364.16,8609.23
+06/19/2024 0:00,Arjun Iyer,Male,Jacket,4,2577.39,0.11,15407.9,5412.09
+10/04/2023 0:00,Sanjay Gupta,Male,Dal (1kg),4,309.85,0.04,1375.7,128.93
+12/06/2020 0:00,Priya Gupta,Female,Dress,8,2574.11,0.12,12273.11,5629.65
+01/21/2020 0:00,Deepa Kapoor,Male,Lipstick,9,1931.61,0.35,10532.18,5257.88
+10/01/2021 0:00,Aditya Gupta,Male,Cycle,3,13585.06,0.33,26055.86,5488.23
+03/11/2024 0:00,Meera Patel,Male,T-Shirt,2,1543.23,0.26,3196.43,1291.1
+10/28/2022 0:00,Shreya Rao,Female,Dumbbells,1,14172.12,0.14,12312.75,2055.13
+09/25/2020 0:00,Priya Pillai,Male,Textbook,7,298.01,0.2,1735.77,683.51
+05/27/2020 0:00,Pooja Bhat,Female,Wardrobe,10,2690.93,0.35,23373.24,7410.64
+05/12/2023 0:00,Ritu Gupta,Female,Rice (5kg),1,380.33,0.2,506.19,44.82
+08/06/2021 0:00,Vikram Mehta,Female,Lipstick,3,1302.9,0.23,4258.29,1724.59
+01/09/2024 0:00,Nisha Reddy,Male,Smartwatch,4,13215.16,0.15,41177.25,3874.92
+02/24/2024 0:00,Meera Pillai,Female,Saree,5,3018.53,0.26,13152.75,5208.94
+10/13/2023 0:00,Aditya Shah,Male,Shampoo,4,817.47,0.24,2848.99,1431.62
+03/22/2020 0:00,Sunita Pillai,Female,Sunscreen,9,646.01,0.38,3807.56,1281.84
+04/18/2023 0:00,Pooja Mehta,Female,Face Cream,1,588.9,0.03,804.15,359.5
+07/06/2021 0:00,Nisha Das,Male,T-Shirt,6,3032.93,0.08,25322.69,10654.04
+11/18/2023 0:00,Deepa Bose,Female,Yoga Mat,3,14108.02,0.12,36649.85,6203.2
+11/08/2023 0:00,Kavya Kumar,Female,Cooking Oil,9,165.39,0.22,1080.19,98.81
+07/20/2020 0:00,Amit Kapoor,Male,Cook Book,4,313.79,0.37,885.78,369.77
+10/04/2022 0:00,Ananya Gupta,Female,Dal (1kg),4,314.73,0.15,998.21,61.22
+06/04/2022 0:00,Ritu Nair,Female,Smartphone,7,21000.78,0.3,174189.34,24923.4
+11/04/2022 0:00,Pooja Kumar,Female,Saree,7,525.25,0.03,3229.98,1218.39
+07/10/2023 0:00,Deepa Joshi,Male,Face Cream,9,108.24,0.18,1201.96,569.48
+04/24/2024 0:00,Sunita Iyer,Female,Smartwatch,7,45364.52,0.08,465179.21,56612.46
+03/30/2020 0:00,Aarav Verma,Female,Cycle,5,9009.65,0.08,44971.39,10004.34
+10/25/2024 0:00,Nisha Mehta,Female,Headphones,3,9261.39,0.24,25255.17,3570.94
+02/10/2023 0:00,Nisha Reddy,Female,Saree,5,2531.54,0.2,13540.41,5111.11
+04/01/2023 0:00,Shreya Kumar,Male,Bookshelf,7,23696.15,0.33,157416.69,50425.99
+12/02/2021 0:00,Shreya Chatterjee,Male,Rice (5kg),1,359.04,0.01,276.46,18.11
+04/08/2023 0:00,Sunita Kumar,Male,Dumbbells,4,2360.4,0.36,9045.13,1640.8
+02/02/2021 0:00,Kavya Shah,Male,Flour,7,474.48,0.26,2258.19,189.8
+01/28/2022 0:00,Meera Bhat,Female,Tennis Racket,3,14928.96,0.4,21823.19,4574.82
+12/07/2020 0:00,Rohan Patel,Male,Cook Book,999,403.63,0.15,203951.5,80603.27
+03/04/2022 0:00,Kavya Kumar,Male,Face Cream,6,153.84,0.09,1006.96,616.53
+04/25/2020 0:00,Rahul Bose,Male,Wardrobe,2,3582.55,0.08,8506.99,2610.08
+11/07/2024 0:00,Kavya Shah,Female,Tablet,9,70570.87,0.27,436166.56,54481.93
+01/19/2024 0:00,Karan Kumar,Male,Laptop,2,46140.78,0.2,86042.12,11876.13
+01/24/2022 0:00,Shreya Das,Female,Lipstick,9,265.25,0.18,1737.45,685.06
+12/18/2022 0:00,Amit Kumar,Female,Sugar,7,56.3,0.16,219.23,17.73
+12/24/2022 0:00,Ananya Reddy,Male,Wardrobe,1,21949.11,0.11,16420.47,5291.08
+03/30/2023 0:00,Sanjay Kapoor,Male,Fiction Novel,10,432.2,0.22,4097.63,1857.23
+04/06/2022 0:00,Shreya Rao,Male,Cricket Bat,10,8393.4,0.27,79799.46,13093.99
+07/10/2021 0:00,Priya Mishra,Female,Jacket,6,2619.38,0.24,15863.82,5048.54
+12/07/2020 0:00,Meera Rao,Male,Tennis Racket,8,4670.6,0.27,19375.1,2879.15
+01/14/2020 0:00,Sunita Reddy,Male,Fiction Novel,1,1172.06,0.18,613.66,243.99
+03/29/2021 0:00,Sanjay Chatterjee,Male,Smartwatch,4,70635.62,0.32,207766.8,19874.73
+07/10/2020 0:00,Pooja Kapoor,Female,Biography,2,449.62,0.4,661.09,247.72
+02/22/2021 0:00,Deepa Kumar,Male,Shampoo,7,322.75,0.15,1684.8,760.63
+07/26/2024 0:00,Vikram Reddy,Male,Cooking Oil,2,92.87,0.33,179.13,19.37
+10/16/2024 0:00,Sunita Das,Male,Smartwatch,1,78299.49,0.18,76494.58,10883.34
+11/09/2024 0:00,Rohan Shah,Male,Jeans,4,1153.04,0.23,3508.11,1237.09
+08/15/2022 0:00,Priya Rao,Female,Fiction Novel,6,966.11,0.29,5647.04,1896.58
+11/16/2023 0:00,Sunita Iyer,Female,Saree,8,1471.86,0.27,8376.83,3013.79
+07/12/2021 0:00,Sanjay Verma,Female,Smartphone,3,33090.17,0.22,110240.96,11080.86
+01/13/2024 0:00,Ritu Bose,Male,Cook Book,2,365.34,0.09,599.16,276.46
+12/11/2024 0:00,Rohan Patel,Male,Biography,7,609.79,0.25,2905.61,1079.08
+06/20/2021 0:00,Pooja Kapoor,Female,Cooking Oil,7,363.21,0.38,2475.37,175.94
+06/23/2021 0:00,Ananya Gupta,Female,Tennis Racket,1,8678.32,0.17,9630.16,2953.14
+07/01/2021 0:00,Deepa Kapoor,Male,Saree,2,738.48,0.09,1795.94,565.89
+03/15/2020 0:00,Aditya Chatterjee,Male,Sugar,9,236.54,0.19,1658.66,140.16
+07/01/2021 0:00,Nisha Mehta,Male,Lipstick,5,1998.43,0.26,9047.98,4337.88
+11/25/2024 0:00,Ritu Pillai,Female,Smartwatch,9,76064.53,0.25,473255.79,56343.87
+10/16/2023 0:00,Amit Iyer,Male,Tea,1,97.17,0.14,86.02,8.27
+11/22/2020 0:00,Rahul Verma,Male,Cooking Oil,9,407.45,0.36,1769.53,149.16
+03/20/2021 0:00,Arjun Reddy,Male,Sofa,6,5299.05,0.13,28279.75,5506.48
+09/20/2021 0:00,Kavya Iyer,Male,Dal (1kg),8,126.77,0.15,930.33,66.45
+12/06/2022 0:00,Vikram Rao,Female,Smartphone,1,7708.68,0.26,4938.48,534.97
+11/01/2022 0:00,Ananya Shah,Female,Lipstick,6,835.52,0.01,4761.71,1237.08
+05/16/2021 0:00,Vikram Kapoor,Male,Cricket Bat,6,3857.03,0.3,21548.37,6137.14
+08/09/2022 0:00,Karan Sharma,Male,Saree,1,1170.22,0.37,1011.25,422.66
+03/16/2022 0:00,Priya Chatterjee,Female,Jeans,5,2505.4,0.11,12039.52,4140.53
+05/18/2023 0:00,Pooja Gupta,Female,Smartphone,2,73267.64,0.32,142488.63,20643.55
+08/14/2024 0:00,Vikram Verma,Female,Fiction Novel,3,705.21,0.14,2873.31,1040.42
+01/12/2023 0:00,Sunita Pillai,Female,Yoga Mat,6,13916.75,0.25,54342.29,12305.07
+08/15/2022 0:00,Amit Kumar,Male,Sofa,3,23445.9,0.31,60026.42,15012.25
+06/02/2022 0:00,Sanjay Sharma,Female,Cricket Bat,6,6661.26,0.13,55550.3,11352.36
+08/09/2023 0:00,Karan Singh,Male,Saree,2,3266.34,0,9066.91,3755.8
+01/12/2024 0:00,Meera Das,Male,Sunscreen,1,2339.83,0.03,2319.17,1351.82
+05/30/2022 0:00,Nisha Mishra,Female,Hair Oil,8,1075.32,0.25,9458.95,4920.35
+05/21/2020 0:00,Ritu Mehta,Female,Smartwatch,5,59036.18,0.38,48186.78,5073.5
+10/23/2024 0:00,Nisha Singh,Female,Flour,8,174.02,0.14,1362,107.89
+08/14/2022 0:00,Shreya Gupta,Female,Comic Book,1,1129.04,0.28,1081.22,412.61
+05/27/2024 0:00,Arjun Verma,Male,Sunscreen,4,722.47,0.19,4358.73,1526.73
+08/12/2021 0:00,Amit Pillai,Male,Sunscreen,2,542.62,0.14,971.77,443.38
+12/29/2020 0:00,Nisha Joshi,Male,Face Cream,4,197.52,0.35,379.18,169.93
+01/12/2020 0:00,Arjun Das,Male,Flour,0,315.85,0.13,203.41,13.82
+02/27/2023 0:00,Kavya Nair,Male,Dal (1kg),4,230.58,0.17,768.3,50.26
+04/23/2022 0:00,Sanjay Kapoor,Male,Cricket Bat,6,12397.94,0.35,69539.73,14673.82
+12/13/2020 0:00,Shreya Kapoor,Female,Fiction Novel,6,526.32,0.14,1927.61,588.73
+07/21/2024 0:00,Amit Patel,Male,Flour,6,112.85,0.13,1196.11,116.49
+08/04/2023 0:00,Kavya Pillai,Female,Flour,6,184.04,0.32,1193.08,80.93
+04/29/2023 0:00,Meera Verma,Female,Hair Oil,7,1050.38,0.06,8746.39,3436.69
+07/29/2023 0:00,Karan Reddy,Female,Dumbbells,5,8903.55,0.12,11991.16,1852.66
+08/15/2021 0:00,Nikhil Gupta,Male,Hair Oil,4,525.05,0.02,2333.99,964.12
+04/17/2024 0:00,Nisha Das,Female,Jeans,5,3541.45,0.23,19925.91,8625.62
+07/05/2021 0:00,Arjun Pillai,Male,Saree,9,1326.38,0.16,11602.32,4308.95
+07/01/2023 0:00,Aditya Chatterjee,Male,Bookshelf,2,26714.83,0.23,63871.89,16676.94
+02/15/2023 0:00,Ritu Das,Male,Perfume,9,1698.6,0.25,12379.8,4098.15
+06/14/2022 0:00,Ritu Rao,Male,Football,1,13827.19,0.4,13665.74,2472.59
+08/01/2022 0:00,Sanjay Mishra,Female,Sunscreen,4,356.27,0.25,1442.88,531.3
+03/17/2022 0:00,Nikhil Bose,Male,Sunscreen,2,563.96,0.2,1382.93,529.71
+05/13/2024 0:00,Arjun Kapoor,Female,Tablet,1,42744.12,0.29,49034.56,5764.27
+09/20/2024 0:00,Rohan Chatterjee,Female,Fiction Novel,9,816.41,0.35,5054.28,2136.9
+10/09/2022 0:00,Sunita Kumar,Female,Flour,10,364.93,0.07,3274.29,294.88
+04/16/2023 0:00,Deepa Gupta,Male,Dumbbells,7,12799.72,0.11,114501.45,25731.03
+07/30/2023 0:00,Aditya Shah,Male,Dal (1kg),5,380.49,0.36,368.28,36.06
+02/01/2022 0:00,Pooja Iyer,Male,Face Cream,5,1868.65,0.06,1684.76,667.36
+05/26/2020 0:00,Shreya Mishra,Female,Cook Book,2,425.83,0.04,846.36,364.43
+10/19/2023 0:00,Nisha Bhat,Female,Bed Frame,5,2374.77,0.28,9688.23,2614.25
+06/01/2020 0:00,Aditya Shah,Male,Rice (5kg),8,294.27,0.35,1927.79,96.62
+01/18/2021 0:00,Kavya Shah,Female,Headphones,5,58480.23,0.09,200569.38,24313.05
+02/06/2023 0:00,Amit Rao,Male,Yoga Mat,8,5590.43,0.19,37398.22,4824.74
+11/29/2020 0:00,Ritu Mishra,Female,Smartwatch,4,7981.68,0.38,12800.24,1753.15
+01/03/2023 0:00,Nikhil Joshi,Male,Bed Frame,2,9783.06,0.12,15984.43,3578.22
+07/30/2023 0:00,Ritu Sharma,Female,Camera,4,66643.15,0.14,325899.4,40690.87
+03/26/2022 0:00,Sunita Patel,Female,Shampoo,10,160.57,0.38,1214.1,697.82
+08/10/2022 12:00,Sanjay Rao,Male,Cricket Bat,7,12138.63,0.13,95488.18,21101.52
+12/21/2024 0:00,Rohan Bhat,Male,Headphones,6,61234.43,0.24,268632.52,31422.9
+04/20/2024 0:00,Aditya Singh,Male,Comic Book,5,224.92,0.24,1230.66,529.42
+09/05/2020 0:00,Amit Bhat,Male,Jeans,8,2151.16,0.12,15432.22,4651.88
+02/25/2022 0:00,Ritu Das,Other,Tennis Racket,1,7835.77,0.08,6868.24,1599.65
+05/31/2023 0:00,Priya Mishra,Other,Fiction Novel,2,790.19,0.12,2524.52,1241.47
+02/20/2020 0:00,Nisha Bose,Other,Textbook,10,327.54,0.15,2755.17,1528.85
+08/14/2022 0:00,Vikram Singh,Other,Laptop,10,46080.58,0.33,392607.23,38045.24
+05/03/2023 0:00,Rohan Mishra,Female,Kurta,10,630.78,0.2,10612,3459.74
+06/25/2021 0:00,Karan Singh,Male,Cricket Bat,5,10501.07,0.1,15147.36,3020.39
+09/10/2024 0:00,Aarav Joshi,Male,Headphones,1,40304.61,0.04,54475.55,5497.55
+05/15/2024 0:00,Ritu Das,Female,Chair,3,16806.93,0.37,52202.49,17999.97
+03/23/2021 0:00,Amit Joshi,Female,Desk,2,4143.1,0.2,9554.34,2463.95
+08/02/2020 0:00,Amit Mehta,Male,Laptop,6,76471.27,0.2,542833.32,79755.17
+11/26/2023 0:00,Rahul Gupta,Male,Cook Book,10,666.25,0.07,5098.4,1728.64
+12/04/2024 0:00,Ananya Pillai,Female,Tablet,4,51581.35,0.38,131067.26,15238.43
+08/05/2022 0:00,Arjun Mishra,Male,Tablet,1,67980.93,0.2,96948,11975.81
+11/28/2022 0:00,Pooja Sharma,Other,Fiction Novel,5,1175.29,0.36,3025.64,1294.96
+12/13/2020 0:00,Aditya Mishra,Male,Sofa,5,30866.8,0.07,87823.05,26550.31
+10/09/2020 0:00,Kavya Joshi,Male,Perfume,9,1406.56,0.1,8925.05,3776.97
+11/13/2020 0:00,Priya Nair,Female,Tablet,6,50084.03,0.17,186628.87,20981.15
+07/12/2020 0:00,Aditya Nair,Male,Cooking Oil,2,379.2,0.2,658.39,27.25
+02/20/2020 0:00,Ritu Mishra,Female,Lipstick,2,959.97,0.05,1563.91,630.51
+08/10/2022 12:00,Shreya Verma,Male,Kurta,1,1604.88,0.22,1620.42,414.75
+10/18/2022 0:00,Shreya Mehta,Other,Kurta,5,3077.69,0.12,12279.25,4018.97
+05/28/2021 0:00,Aarav Kumar,Male,Tea,10,179.45,0.1,2253.34,170.8
+02/22/2024 0:00,Vikram Joshi,Other,T-Shirt,6,1277.66,0.2,7425.11,2123.71
+06/05/2022 0:00,Kavya Shah,Female,Cricket Bat,10,6308.82,0.36,65319.25,13727.44
+10/22/2023 0:00,Pooja Joshi,Other,Hair Oil,10,850.71,0.4,5762.75,2735.24
+06/17/2023 0:00,Karan Singh,Male,Rice (5kg),5,200.85,0.36,1116.38,71.67
+08/10/2021 0:00,Aditya Singh,Female,Sofa,3,23823.69,0.11,88956.71,26211.15
+10/23/2021 0:00,Nikhil Verma,Other,Football,6,10030.26,0.17,51174.21,14093.89
+11/08/2022 0:00,Amit Shah,Male,Laptop,9,33801.96,0.4,175761.72,23971.25
+06/20/2022 0:00,Nikhil Nair,Other,Saree,4,2288.92,0.09,11495.42,3680.34
+06/20/2022 0:00,Sunita Iyer,Male,Flour,8,377.69,0.27,3219.24,244.77
+03/28/2020 0:00,Pooja Joshi,Other,Cycle,8,10282.68,0.11,66340.96,13106.07
+12/13/2021 0:00,Nisha Chatterjee,Male,Self-Help Book,7,233.11,0.36,762.89,271.36
+12/29/2020 0:00,Rohan Singh,Male,Yoga Mat,4,2347.62,0.22,5426.75,1694.29
+08/20/2024 0:00,Shreya Gupta,Other,Dumbbells,8,8802.69,0.36,54768.47,12390.55
+04/03/2021 0:00,Priya Kapoor,Other,Jacket,8,1837.46,0.26,13934.11,4142.94
+09/23/2022 0:00,Arjun Kapoor,Male,Tennis Racket,5,7290.72,0,8729.66,2532.61
+04/27/2020 0:00,Aditya Pillai,Female,Football,6,7876.81,0.02,58868.95,12406.43
+01/30/2022 0:00,Amit Reddy,Female,Comic Book,4,1134.89,0.05,3201.22,939.71
+08/10/2022 12:00,Meera Chatterjee,Male,Jeans,9,3373.39,0.02,45729.43,18565.86
+04/05/2023 0:00,Sunita Bose,Female,Tea,9,467.6,0.02,5992.24,654.29
+09/14/2020 0:00,Sunita Mehta,Other,Bookshelf,7,5932.53,0.39,23093.12,8164.97
+08/07/2024 0:00,Sunita Pillai,Other,Jeans,5,545.99,0.34,578.97,183.45
+11/06/2022 0:00,Sanjay Iyer,Other,Tea,8,163.97,0.16,1055.34,91.59
+02/06/2023 0:00,Sanjay Rao,Male,Self-Help Book,10,947.87,0.24,7234.13,3527.5
+02/16/2021 0:00,Arjun Patel,Male,Smartwatch,3,48921.59,0.19,107608.01,16935.06
+03/17/2023 0:00,Meera Rao,Female,Perfume,2,888.49,0.08,2115.74,795.3
+11/16/2021 0:00,Shreya Mishra,Other,Rice (5kg),1,148.49,0.12,100.14,7.46
+09/24/2020 0:00,Arjun Patel,Female,Tablet,1,38379.55,0.18,33725.89,4708.06
+11/30/2024 0:00,Pooja Iyer,Female,Self-Help Book,10,1308.63,0.39,8038.79,3691.88
+08/03/2021 0:00,Shreya Bhat,Other,Cycle,2,8857.58,0.05,21239.19,3446.13
+05/30/2022 0:00,Nisha Reddy,Other,Tennis Racket,10,2313.34,0.07,26178.67,6071.72
+03/13/2023 0:00,Sanjay Rao,Male,Cycle,4,7081.6,0.31,25039.19,6611.41
+08/13/2022 0:00,Arjun Verma,Male,Jeans,8,3588.17,0.24,31618.79,13674.74
+07/30/2024 0:00,Amit Nair,Male,Kurta,4,2461.65,0.33,9963.87,2386.31
+10/14/2020 0:00,Sanjay Nair,Other,Bed Frame,4,22879.02,0.1,63905.82,18612.63
+06/18/2023 0:00,Pooja Mishra,Male,Cook Book,9,916.14,0.36,8220.04,2666.27
+09/29/2021 0:00,Ananya Verma,Female,Sofa,6,3717.72,0.22,17177.15,4949.58
+09/11/2023 0:00,Sunita Patel,Other,Cricket Bat,7,7005.09,0.2,55004.13,13825.48
+04/20/2020 0:00,Sunita Bose,Male,Sofa,1,6470.7,0.34,4394.74,1235.03
+07/24/2023 0:00,Amit Sharma,Female,Cook Book,10,680.67,0.28,7920.13,4381.82
+09/25/2021 0:00,Shreya Mehta,Female,Face Cream,2,1348.14,0.25,2363.7,904.82
+10/02/2022 0:00,Kavya Singh,Female,Dress,10,2259.78,0.04,20953.37,7949.05
+12/25/2021 0:00,Nisha Bhat,Female,Sunscreen,1,805.29,0.36,359.88,172.3
+09/07/2020 0:00,Ritu Bose,Female,Cook Book,6,1105.96,0.29,5241.79,1716.01
+06/05/2022 0:00,Sanjay Mishra,Female,Sunscreen,8,2364.86,0.15,20195.66,11817.43
+02/27/2020 0:00,Ritu Joshi,Female,Tennis Racket,1,11227.96,0.31,6220.68,1706.13
+08/05/2023 0:00,Meera Pillai,Other,Tennis Racket,3,6247.18,0.23,19652.06,5128.89
+11/11/2024 0:00,Arjun Gupta,Female,Bed Frame,2,28947.69,0.39,35266.77,8167.38
+08/26/2023 0:00,Sunita Patel,Other,Headphones,1,41296.1,0.07,53611.5,4184.23
+05/05/2020 0:00,Arjun Verma,Female,Cook Book,10,1387.77,0.03,15244.18,5378.75
+03/16/2022 0:00,Karan Gupta,Female,Comic Book,2,1012.58,0.2,2058.59,942.39
+12/27/2021 0:00,Aarav Joshi,Male,Jacket,10,593.55,0.18,3624.78,896.12
+09/15/2022 0:00,Ananya Patel,Female,T-Shirt,0,803.12,0.07,911.76,328.33
+10/20/2023 0:00,Ananya Mehta,Male,Shampoo,3,2099.98,0.35,4400.47,2125.89
+07/11/2023 0:00,Ritu Kumar,Male,Fiction Novel,1,623.96,0.21,778.16,263.81
+09/15/2023 0:00,Aditya Shah,Female,Dal (1kg),1,394.11,0.22,414.31,32.52
+06/08/2021 0:00,Ananya Sharma,Male,Sofa,5,23260.25,0.33,119013.87,32585.16
+08/03/2022 0:00,Vikram Singh,Female,Kurta,1,2503.3,0.15,2937.26,723.88
+09/10/2022 0:00,Rahul Patel,Other,Lipstick,9,1292.16,0.22,10154.82,3046.85
+09/05/2021 0:00,Meera Patel,Female,Camera,10,55908.72,0.11,627898.81,86690.85
+03/02/2022 0:00,Priya Singh,Female,Face Cream,6,583.99,0.26,2822.23,1322.69
+05/04/2023 0:00,Pooja Shah,Female,Saree,2,3236.58,0.04,9893.97,3171.49
+12/16/2024 0:00,Aditya Mehta,Female,Football,9,7976.73,0.2,57905.39,13844.42
+06/12/2020 0:00,Kavya Rao,Male,Dress,10,658.16,0.25,6367.6,1841.64
+08/26/2024 0:00,Shreya Bose,Female,Comic Book,2,1157.89,0.35,2443.04,649.16
+04/25/2021 0:00,Ananya Das,Female,Tablet,8,28211.93,0.33,175402.71,20772.79
+09/21/2024 0:00,Aarav Kapoor,Male,Sunscreen,7,2114.17,0.39,13036.59,6081.67
+06/14/2024 0:00,Pooja Rao,Other,Dress,1,3581.25,0.01,6175.08,1771.61
+09/09/2023 0:00,Kavya Das,Other,Desk,9,24481.84,0.18,236017.16,68746.18
+08/12/2022 0:00,Karan Mishra,Other,Football,7,14759.38,0,128001.22,25740.07
+05/03/2021 0:00,Vikram Verma,Female,Perfume,2,608.88,0.23,1272.71,511.96
+04/09/2024 0:00,Pooja Reddy,Other,Jacket,10,1823.02,0.19,21680.07,11667.37
+03/14/2023 0:00,Ritu Nair,Other,Headphones,2,76935.79,0.01,171768.97,27234.01
+08/10/2022 12:00,Ritu Patel,Other,Jeans,6,2934.92,0.1,18790.52,7715.18
+12/28/2022 0:00,Ritu Verma,Male,Biography,5,1103.75,0.25,3579.91,1891.54
+03/30/2023 0:00,Kavya Shah,Male,Chair,1,7329.9,0.35,6777.56,2396.72
+02/21/2022 0:00,Karan Mishra,Other,Textbook,4,378.9,0.39,957.41,235.48
+03/18/2023 0:00,Ananya Mishra,Female,Cook Book,4,1221.11,0.25,5162.57,1875.62
+10/31/2020 0:00,Ritu Bose,Other,Cooking Oil,8,347.71,0.08,2265.28,178.59
+08/23/2024 0:00,Sunita Verma,Other,Yoga Mat,6,9574.41,0.02,81951.13,15952.26
+10/09/2024 0:00,Aarav Patel,Male,Cook Book,8,1268.46,0.05,12103.46,3618.98
+02/05/2022 0:00,Pooja Mishra,Male,Football,8,11620.56,0.18,89828.71,25898.31
+08/14/2023 0:00,Nisha Iyer,Female,Smartphone,1,34885.37,0.1,44683.38,3420.51
+03/20/2024 0:00,Aarav Shah,Male,Bed Frame,7,28445.23,0.28,189614.18,42435.49
+04/30/2023 0:00,Priya Mehta,Female,Smartwatch,6,64360.23,0.32,385580.53,28776.57
+10/29/2023 0:00,Nikhil Nair,Male,Sunscreen,2,1820.95,0.15,2961.7,1317.61
+03/01/2023 0:00,Deepa Pillai,Female,Headphones,6,78301.55,0.24,446345.61,61437.6
+04/11/2020 0:00,Rohan Chatterjee,Other,Perfume,4,171.85,0.03,902.31,591.14
+09/09/2020 0:00,Meera Chatterjee,Other,Dumbbells,5,603.71,0.39,373.9,76.01
+06/09/2021 0:00,Karan Gupta,Female,Dal (1kg),6,57.72,0.2,553.5,48.28
+08/19/2020 0:00,Ritu Gupta,Female,Desk,3,28093.41,0.11,80865.4,14166.32
+07/09/2024 0:00,Sanjay Gupta,Male,Headphones,3,39483.93,0.01,188221.16,17116.65
+12/16/2024 0:00,Nikhil Iyer,Male,Jeans,4,1999.6,0.4,4690.45,1146.6
+10/12/2023 0:00,Ananya Bhat,Male,Cooking Oil,9,407.05,0.3,1997.66,139.6
+08/10/2022 12:00,Karan Reddy,Female,Yoga Mat,9,3110.88,0.28,29090.53,4498.07
+02/09/2023 0:00,Vikram Pillai,Male,Yoga Mat,1,12495.08,0.27,9249.06,1686.4
+12/14/2024 0:00,Deepa Kapoor,Other,Chair,1,9449.94,0.15,7223.61,2224.51
+08/10/2022 12:00,Aarav Mishra,Male,Headphones,8,30314.74,0.06,283224.55,33093.14
+10/22/2020 0:00,Sanjay Verma,Other,Cycle,1,12380.73,0.24,8294.3,2144.64
+08/10/2022 12:00,Karan Sharma,Male,Dumbbells,4,6304.42,0.31,15164.38,3544.74
+03/15/2020 0:00,Aarav Rao,Male,Saree,2,2448.31,0.35,3584.88,1270.16
+02/21/2024 0:00,Sunita Singh,Other,Headphones,3,50121.13,0.25,130268.18,18524
+07/26/2023 0:00,Arjun Patel,Male,Tennis Racket,5,1956.54,0.2,10411.35,2723.2
+03/09/2024 0:00,Vikram Singh,Other,Laptop,5,35958.57,0.23,180888.8,18318.66
+02/01/2022 0:00,Rahul Sharma,Female,Shampoo,10,1797.87,0.31,12188.57,2948.45
+02/08/2022 0:00,Aarav Bose,Male,Flour,10,299.21,0.19,2491.46,268.35
+10/05/2022 0:00,Kavya Sharma,Other,Bookshelf,8,32195.15,0.25,191258.73,53878.3
+01/09/2022 0:00,Pooja Patel,Other,Chair,7,2529.87,0.12,14719.17,4154.01
+10/18/2022 0:00,Ritu Joshi,Female,Football,10,14562.6,0.31,86000.34,18267.52
+02/12/2020 0:00,Aditya Chatterjee,Female,Hair Oil,6,1270.36,0.06,5747.77,2669
+08/10/2022 12:00,Amit Reddy,Male,Fiction Novel,3,789.1,0.18,1449.86,562.04
+12/30/2020 0:00,Priya Shah,Other,Camera,7,56504.32,0.3,197546.47,21532.46
+08/01/2020 0:00,Nisha Nair,Other,Dumbbells,2,2448.88,0.08,3192.22,355.63
+08/17/2024 0:00,Ritu Gupta,Female,Headphones,3,51479.19,0.25,182018.37,19016.37
+10/17/2024 0:00,Meera Patel,Other,Flour,8,184.25,0.21,1215.29,77.92
+10/28/2022 0:00,Rahul Singh,Female,Camera,6,6441.62,0.27,31528.73,5997.64
+04/02/2022 0:00,Aditya Nair,Male,Dal (1kg),3,475.6,0.18,1586.7,154.07
+10/16/2024 0:00,Ananya Singh,Female,Chair,2,8590.53,0.23,12705.04,3529.2
+10/27/2024 0:00,Arjun Bose,Female,Bed Frame,1,14589.01,0.2,13208.25,3174.45
+02/27/2023 0:00,Nisha Kumar,Female,Fiction Novel,2,484.9,0.1,1040.24,423.7
+10/02/2021 0:00,Amit Rao,Male,Laptop,10,23157.51,0.12,176221.6,21453.69
+12/30/2023 0:00,Rahul Mehta,Male,Textbook,9,609.86,0.14,3554.23,1923.48
+03/11/2023 0:00,Vikram Verma,Male,Jacket,8,570.18,0.04,5294.75,1738.46
+02/14/2023 0:00,Meera Kapoor,Female,Laptop,9,41854.41,0.33,247342.73,30449.06
+04/16/2022 0:00,Amit Singh,Female,Dress,3,3710.29,0.05,14616.34,5360.81
+01/30/2022 0:00,Nikhil Kumar,Male,Hair Oil,10,2477.1,0.19,19204,9210.86
+12/21/2020 0:00,Nisha Gupta,Male,Cycle,8,12540.64,0.16,54877.82,12900.73
+05/20/2023 0:00,Ananya Verma,Female,Shampoo,8,211.05,0.17,2271.48,1315.77
+03/24/2021 0:00,Karan Mishra,Female,Yoga Mat,7,2782.21,0.21,13694.75,1856.34
+09/25/2021 0:00,Priya Chatterjee,Male,Hair Oil,7,210.31,0.23,1209,600.88
+08/05/2023 0:00,Sunita Bose,Female,Chair,2,27227.5,0.27,53652.43,18467.9
+01/22/2024 0:00,Priya Bose,Male,Tennis Racket,2,11637.71,0.03,20228.5,3894.99
+10/29/2022 0:00,Aditya Mishra,Male,Self-Help Book,10,1494.95,0.38,9412.99,4806.77
+06/10/2020 0:00,Rohan Bhat,Male,Jeans,2,1835.19,0.03,4360.69,1812.7
+12/01/2020 0:00,Aarav Mishra,Male,Dress,2,3263.53,0.28,3766.06,1284.73
+04/24/2022 0:00,Aditya Patel,Female,Fiction Novel,5,610.98,0.16,3679.38,1422.56
+02/18/2023 0:00,Ananya Shah,Male,Cook Book,4,1488.05,0.16,5878.72,1895.88
+10/28/2020 0:00,Shreya Gupta,Female,Textbook,8,513.63,0.17,2804.09,1009.57
+05/28/2020 0:00,Pooja Bhat,Other,Sugar,9,213.6,0.32,1665.43,193.99
+01/29/2024 0:00,Vikram Gupta,Other,Sunscreen,4,1120.04,0,4784.7,1051.2
+07/02/2022 0:00,Aditya Pillai,Female,Headphones,5,14814.19,0.2,105694.63,11127.91
+08/05/2020 0:00,Vikram Gupta,Other,Rice (5kg),4,57.97,0.1,258.54,16.67
+04/01/2021 0:00,Meera Iyer,Male,Flour,2,438.16,0.25,855.21,70.3
+10/08/2021 0:00,Ritu Bhat,Male,Cooking Oil,5,312.3,0.12,1270.29,110.96
+07/06/2024 0:00,Shreya Shah,Female,T-Shirt,8,3182.92,0.17,35409.06,17485.08
+06/10/2022 0:00,Rohan Verma,Female,Kurta,3,1256.16,0.05,5186.09,2331.26
+04/05/2020 0:00,Sanjay Mishra,Male,Face Cream,9,1356.81,0.01,13938.43,5273.14
+05/04/2023 0:00,Arjun Patel,Male,Lipstick,6,2373.35,0.3,15281.74,8565.14
+11/02/2022 0:00,Kavya Kapoor,Other,Dress,3,1457.48,0.04,3326.03,1139.23
+10/03/2020 0:00,Rohan Bhat,Female,Smartwatch,4,72305.61,0.03,221219.87,28168.08
+10/04/2020 0:00,Rohan Bhata,Female,Smartwatch,4,72305.61,0.03,221219.87,28168.08
